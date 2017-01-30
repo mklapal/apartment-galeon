@@ -5,9 +5,13 @@
 # nastaveni vychozi stranky adresare
 #DirectoryIndex index.php index.html
 
-#RewriteBase /galeon
+RewriteBase /galeon
 
 #adresy - maskování
 RewriteEngine On
 
-RewriteRule ^location     /galeon/pages/location.php
+RewriteRule ^location   pages/location.php
+RewriteRule ^apartment  pages/apartment.php
+RewriteRule ^contact    pages/contact.php
+RewriteRule ^rent       pages/rent.php
+

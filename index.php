@@ -1,7 +1,7 @@
 <?php 
 
 require("config.php");
-$lang = "cs";
+$lang = "en";
 $menu = "index";
 $homepage = true;
 require("pages/template_header.php");
