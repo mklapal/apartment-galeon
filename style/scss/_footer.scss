@@ -1,0 +1,27 @@
+footer {
+	padding: 0 10%;
+	background: $green-dark;
+	height:140px;
+	background: $green-dark url('../../images/footer_background.png') repeat-x;
+	
+
+	.wrapper{
+		background: transparent url('../../images/general_logo.svg') no-repeat;
+		background-position: 50% 30%;
+		height:140px;
+		background-size: 45%;
+	}
+
+	.address{
+		padding: 1em 0 0 0;
+	}
+
+	.copyright{
+		padding:0em 0 0em;
+		text-align:center;
+		color:$grey-background;
+		font-size: $font-s;
+	}
+
+
+}

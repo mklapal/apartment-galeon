@@ -1,0 +1,36 @@
+* {
+	/* So 100% means 100% */
+	box-sizing: border-box;
+}
+html, body {
+	font-size:100%;
+    background:$green-dark;
+}
+
+form input {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+ 
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 100%;
+    line-height: 1em;
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 100%;
+    position: relative;
+}
+
+strong{
+    font-weight:bold;
+}
+
+a{
+    color:$black;
+    &:hover{
+        color:$gold;
+    }
+
+}

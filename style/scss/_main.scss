@@ -1,0 +1,277 @@
+.main {
+	padding: 0 10%;
+	
+	&.js-background{
+		background-image: url('../../images/new1.jpg');
+		background-position: 50% 50%;
+		background-size: cover;
+		@include transition(all, 1s, ease-in-out);
+	}	
+
+	.wrapper{
+		height: 500px;
+		overflow: hidden;
+	}
+
+	.box1{
+		text-align:center;
+		margin:2em 0 0;
+		padding:1em;
+		width:200px;
+		height:auto;
+		background:$gold-opacity;
+		float:left;
+		
+		h1{
+			text-align:center;
+			font-size:$font-xl;
+			font-weight:bold;
+			font-family: 'PT Sans';
+			font-style: italic;
+			padding:0 0 0.5em 0;
+		}
+
+		p{
+			text-align:justify;
+			font-size:$font-s;
+		}
+		
+		.logo-element{
+			height:2em;
+			width:2em;
+			background: url('../../images/znak_black.svg') no-repeat transparent;
+			background-position: 50% 50%;
+			background-size: contain;
+			margin: 0.5em auto;	
+		}
+	}
+
+	.bcg-buttons{
+		margin:2em 0 0;
+		float:right;
+
+		ul li{
+			text-align:center;
+			width:1em;
+			height:1em;
+			display:inline-block;
+			@include rounded(1em);
+			background:$white;
+			margin:0 0.2em 1em;
+			text-indent:-99999px;
+			border:1px solid $black;
+		}
+
+		.active,
+		.selected
+		{
+			background:$gold;
+		}
+	}
+
+
+}
+
+.text{
+	
+	padding: 0 10%;
+	background: $grey-background;
+	@include clearfix;
+	
+	.wrapper{
+		overflow: hidden;
+		margin:0 0 3em 0;
+		padding:0 0 2em;
+	}
+
+	.box {
+		width: 33%;
+		float: left;
+		margin: 3em 0em;
+
+		.header{
+			margin:0em 20px 0em 20px;
+			//@include calc(margin-right, "33.3% - 30px");
+			padding:3em 0em 0.2em;
+			border-bottom:1px solid $gold;
+			@include clearfix;	
+
+			h2{
+				float:left;
+				font-weight:bold;
+				font-size:$font-xl;
+				font-family: 'PT Sans';
+				font-style: italic;
+				padding-top:1em;
+				max-width:75%;
+				//background: url('../../images/znak_gold.svg') no-repeat transparent;
+				//background-position: right 90%;
+				//background-size:30px;
+			}
+
+			.logo-element{
+				float:right;
+				position:relative;
+				bottom:-10px;
+				height:2em;
+				width:2em;
+				background: url('../../images/znak_gold.svg') no-repeat $grey-background;
+				background-position: right 100%;
+				//background-size: contain;
+				//margin: 0.5em auto;	
+			}
+		}
+
+		p.box-text{
+			padding:0.5em 20px 0em;
+			text-align:justify;
+			min-height: 200px;
+
+		}
+
+		.img-center{
+			display:block;
+			margin:2em auto 0;
+		}
+
+		.more{
+			float:right;
+			height:auto;
+			padding:0 20px 0 0;
+
+			a{
+				text-decoration:none;
+				font-style: italic;
+				font-weight:bold;
+				color:$black;
+				border-bottom:1px solid $gold;
+			}
+			a:hover{
+				color:$gold;
+			}
+		}
+	}
+
+	.left-side{
+		width:12em;
+		padding:1.2em 1em 0 0;
+		height:auto;
+		min-height:30em;
+		float:left;
+
+		ul li{
+			color:$black;
+			padding:0.2em 0;
+			a{
+				text-decoration:none;
+				color:$black;
+				text-transform: capitalize;
+			}
+			a:hover, a.selected{
+				color:$gold;
+			}
+		}
+
+		.address{
+			margin:10em 0;
+
+			img.img-left{
+				margin:1em 0 0em;
+				clear:both;
+			}
+
+		}
+
+		p{
+			text-align:justify;
+			font-size:$font-s;
+			padding:0 0 1em 0;
+		}
+		
+		.logo-element{
+			height:2em;
+			width:2em;
+			background: url('../../images/znak_black.svg') no-repeat transparent;
+			background-position: 50% 50%;
+			background-size: contain;
+			margin: 0.5em auto;	
+		}
+
+	}
+
+	.right-side{
+		width:auto;
+		height:auto;
+		margin:0 0 1em 13em;
+
+		.header{
+			border-bottom:1px solid $gold;
+			font-size: $font-xxl;
+			font-weight:bold;
+			margin:1em 0 1em;
+			padding:0 0 0.2em 0;
+			//@include clearfix;	
+
+			h1{
+				font-family: 'PT Sans';
+				font-style: italic;
+				max-width:75%;
+				//background: url('../../images/znak_gold.svg') no-repeat transparent;
+				//background-position: right 90%;
+				//background-size:30px;
+			}
+
+			.logo-element{
+				float:right;
+				position:relative;
+				top:-30px;
+				height:1.5em;
+				width:1.5em;
+				background: url('../../images/znak_gold.svg') no-repeat $grey-background;
+				background-position: right 100%;
+				//background-size: contain;
+				//margin: 0.5em auto;	
+			}
+		}
+
+		h2{
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+
+		p{
+			margin:0 0 1em 0;
+			text-align: justify;
+			padding-top:0.6em;
+			font-size:$font-s;
+		}
+
+		img.full-size{
+			text-align:center;
+			width:100%;
+			margin:1em 0 0 0;
+		}
+
+
+		a.standards-link{
+			text-align:right;
+			float:right;
+			margin:0em 0 1em;
+			padding:0em 0 0;
+			text-decoration:none;
+			font-style: italic;
+			font-weight:bold;
+			color:$black;
+			border-bottom:1px solid $gold;
+			&:hover{
+				color:$gold;
+			}
+		}
+
+
+
+	}
+
+
+
+}
