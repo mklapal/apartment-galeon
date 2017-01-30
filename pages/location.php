@@ -7,6 +7,7 @@ require("../pages/template_header.php");
 
 ?>
 
+
         <section class="text">
             
             <div class="wrapper">

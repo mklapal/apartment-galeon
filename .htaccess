@@ -1,19 +1,13 @@
 # stranka s chybovym hlasenim pro chybu 404 - nenalezen
-# ErrorDocument 404 /layout/404.html
-# ErrorDocument 403 /layout/403.html
+# ErrorDocument 404 /404.html
+# ErrorDocument 403 /403.html
 
 # nastaveni vychozi stranky adresare
 #DirectoryIndex index.php index.html
 
-RewriteBase /galeon
+#RewriteBase /galeon
 
 #adresy - maskování
 RewriteEngine On
 
-RewriteRule   ^location   /pages/location.php
-RewriteRule   ^apartment  galeon/pages/apartment.php
-RewriteRule   ^info       galeon/pages/info.php
-RewriteRule   ^contact    galeon/pages/contact.php
-
-#RewriteRule   ^           /apartment-galeon/index.php
-
+RewriteRule ^location     /galeon/pages/location.php
