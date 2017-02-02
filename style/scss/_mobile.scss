@@ -1,169 +1,77 @@
 @media only screen and (min-width:1200px) {
-
-	header, footer, .main, .text {
-		margin: 0 auto;
-		//max-width:1000px;
-		//width:1000px;
-		
-		.wrapper{
-			max-width:960px;
-			margin:0 auto;
-		}
-	}
+  header, footer, .main, .text {
+    margin: 0 auto;
+    
+    .wrapper {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+  }
 }
-
-
 @media only screen and (max-width:900px) {
+  header, footer, .main, .text {
+    padding: 0 2%;
+    height: auto;
 
-	header {
-		.wrapper{
-			background-size: contain;
+    .wrapper {
+    }
+  }
+  header {
+    .wrapper {
+      background-size: contain;
+      height: auto;
+    }
+    h1.header-logo-left {
+      width: 100%;
+      height: auto;
+      float: none;
+    }
+  }
 
-			.hanka-hack-background{
-				display:block;
-				bottom:-9.5em;
-			}
+  .main-menu {
+    text-align: center;
 
-		}
+    ul {
+      padding: 1em 0;
+    }
 
-		&.homepage{
-			.hanka-hack-background{
-				display:none;
-			}
-		}
+    ul li {
+      margin: 0 1em 0 0;
+    }
+  }
 
-		.main-menu{
-			padding:0.5em 0 0 0em;
-		}
-	}
+  footer {
+    .wrapper {
+      background-size: contain;
+      background-position: 100% 50%;
+      background-size: 50%;
+      height: auto;
+    }
+  }
+  .main {
+    .box1 {
+      width: auto;
+      height: auto;
+      float: none;
+      min-height: 100px;
+    }
 
-	.text{
-		padding:0 10% 20px 10%;
-		.box{
-			margin: 1em 0em;
+    .bcg-buttons {
+      text-align: center;
+      clear:both;
+      float: none;
+    }
+  }
+  .text {
+    padding: 0 2% 20px 2%;
 
-
-			.header{
-				margin:0em 10px 0em;
-				padding:3em 0em 0.2em;
-			}
-
-			p.box-text{
-				padding:0.5em 10px 1em;
-				min-height: inherit;
-			}
-
-			.more{
-				padding:0 10px 0 0;
-			}
-		}
-
-	}
-
-}
-
-
-@media only screen and (max-width:650px) {
-
-	header, footer, .main, .text {
-		padding: 0 2%;
-		height: auto;
-
-		.wrapper{
-			
-		}
-	}
-
-	header {
-		background: $green-dark;
-		.wrapper{
-			background-size: contain;
-			height:auto;
-
-			.hanka-hack-background{
-				display:none;
-			}
-
-		}
-
-		h1.header-logo-left{
-			width:100%;
-			height:auto;
-			float:none;
-		}
-
-		h2.header-logo-right{
-			display:none;
-		}
-
-		.main-menu{
-			float:none;
-			text-align:center;
-			width:100%;
-			ul{
-			padding:1em 0;
-			}
-		}
-
-		.lang-menu{
-			float:none;
-			text-align:center;
-			width:100%;
-			ul{
-			padding:0em 0 1em;
-			}
-		}
-	}
-
-	footer {
-		
-		.wrapper{
-			background-size: contain;
-			background-position: 100% 50%;
-			background-size: 50%;
-			height:auto;
-		}
-
-
-	}
-
-	.main{
-		.box1{
-			width:auto;
-			height:auto;
-			float:none;
-			min-height:100px;
-		}
-
-	}
-
-	.text{
-		padding:0 2% 20px 2%;
-		.box{
-			width:100%;
-			float:none;
-		}
-
-		.left-side{
-			width:100%;
-			padding:1em 0;
-			//background:red;
-			float:none;
-			min-height: 2em;
-			text-align:center;
-
-			p.address{
-				display:none;
-			}
-		}
-
-		.right-side{
-			//background:blue;
-			margin:1em 0em;
-		}
-
-	}
-
-
+    .box {
+      width: 100%;
+      float: none;
+    }
+    .right-side {
+      margin: 1em 0em;
+    }
+  }
 
 }

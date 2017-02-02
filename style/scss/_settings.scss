@@ -1,6 +1,5 @@
 //how to run
 /*
-
 powershell
 cd 'C:\wamp\www\vinohradska85\style'
 sass --watch scss:css --style compressed
@@ -16,31 +15,10 @@ $font-xxl:	1.5em;	//30px
 $font-xxxl:	2em;	//30px
 
 
-$red:	#f00;
-$blue:	#00f;
-$green:	#0f0;
+$red:	#C82227;
+$yellow: #FFC50A;
+$red-opacity: rgba(#C82227, 0.7);
 
 $white: #fff;
 $black: #000;
-$green-light: rgb(216, 212, 201);
-$green-dark: #868a6f;
-$grey-background: rgb(216, 212, 201);
-$gold: rgb(186, 156, 10);
-$gold-opacity: rgba(139, 124, 57, 0.7);
-
-
-
-/*
-- podklady pro banner - výška 145b včetně světlého pruhu, kody barev - tmavá: 132 136 109, světlá: 216 212 201
-- prostřední pole - světlá 216 212 201
-- patička - pruh výška 140b, tmavá: 132 136 109 
-- grafické prvky - výška 29b, šířka 23b
-- zlatá barva - kod 186 156 10
-- zlaté linky - tl. 1b
-- font - PT Sans Narrow https://www.google.com/fonts/specimen/PT+Sans+Narrow
-- texty - do bloku, regular, 13 v boxu, 14 normálně
-- nadpisy - tučně, kurzíva - jestli to google umí?, 22
-- zlatý box 190x400, průhlednost 60% 
-- kolečka 13b
-*/
 
