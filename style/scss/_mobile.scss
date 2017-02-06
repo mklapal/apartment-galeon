@@ -1,3 +1,4 @@
+/*
 @media only screen and (min-width:1200px) {
   header, footer, .main, .text {
     margin: 0 auto;
@@ -8,13 +9,12 @@
     }
   }
 }
+*/
 @media only screen and (max-width:900px) {
   header, footer, .main, .text {
     padding: 0 2%;
     height: auto;
-
-    .wrapper {
-    }
+    
   }
   header {
     .wrapper {
@@ -22,9 +22,8 @@
       height: auto;
     }
     h1.header-logo-left {
-      width: 100%;
-      height: auto;
-      float: none;
+      background-position: center center;
+      background-size: 80% 80%;
     }
   }
 
@@ -37,6 +36,24 @@
 
     ul li {
       margin: 0 1em 0 0;
+    }
+  }
+
+  .form-wrapper {
+    width: auto;
+  
+    .form-left,
+    .form-right {
+      width: 100%;
+      clear: both;
+    }
+  
+    input {
+      width: 100%;
+    }
+
+    textarea {
+      width: 100%;
     }
   }
 

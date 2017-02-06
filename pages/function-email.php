@@ -35,7 +35,7 @@ $_POST['text'] = "testovaci zprava / mockup";
     <table width="550" cellpadding="0" align="center" style="margin-top: 30px; border: 0px solid #ffffff; background:#ffffff;" color:#000000;>
     <tr><td style="background:#868a6f;padding:10px;">
     
-    <img src="http://qa.vinohradska85.cz/images/footer_logo.png" alt="logo">
+    <img src="http://www.apartment-galeon.com/images/logo.png" alt="logo">
     <!--/header-->
     <br />
     <!--body-->

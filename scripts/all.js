@@ -11,10 +11,10 @@ $(document).ready(function() {
   });
 
   var bcg = [
-    'http://www.vinohradska85.cz/images/new1.jpg',
-    'http://www.vinohradska85.cz/images/new2.jpg',
-    'http://www.vinohradska85.cz/images/new3.jpg',
-    'http://www.vinohradska85.cz/images/new4.jpg',
+    '../images/new1.jpg',
+    '../images/new2.jpg',
+    '../images/new3.jpg',
+    '../images/new4.jpg',
   ];
 
   $(bcg).preload();
@@ -113,7 +113,7 @@ $(document).ready(function() {
       $.ajax({
         type: "POST",
         //url: "http://localhost:8080/vinohradska85/pages/function-email_en.php",
-        url: "http://www.vinohradska85.cz/pages/function-email_en.php",
+        url: "http://www.apartment-galeon.com/pages/function-email.php",
         data: $(".js-send").serialize(), // serializes the form's elements.
         success: function(data) {
           console.log(data); // show response from the php script.

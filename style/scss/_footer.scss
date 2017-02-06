@@ -6,14 +6,14 @@ footer {
     padding: 1em 0;
   }
   
-  .address {
-    padding: 1em 0 0 0;
-  }
-  
   .copyright {
-    padding: 0em 0 0em;
-    text-align: center;
-    color: $black;
+    background-image: url('../../images/logo.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 40px;
     font-size: $font-s;
+    height: 40px;
+    text-align: center;
+    text-indent: -9999px;
   }
 }

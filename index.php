@@ -14,7 +14,7 @@ require("pages/template_header.php");
     <article class="box1">
       <h1>Apartment Galeon</h1>
       <p>
-      text intro
+      Hezký byt v přímořském španělském městě Torrevieja u Středozemního moře - to je Apartmán Galeon. Objevte pobřeží Costa Blanca - dlouhé písečné pláže, rušná města, zákoutí s krásnou přírodou, ale i dobré víno či svačinky tapas. Nabízíme plně vybavený dvoupokojvý byt třeba právě pro Vaši dovolenou.
       </p>
     </article>
 
@@ -35,47 +35,40 @@ require("pages/template_header.php");
 
     <section class="box">
       <div class="header">
-        <h2>Title 1</h2>
+        <h2>Lokalita</h2>
       </div>
 
       <p class="box-text">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.
+      Torrevieja je přímořské město na španělském pobřeží Costa Blanca. Je oblíbené díky velmi příznivému klimatu, písečným plážím a přírodě v okolí. 
       </p>
       <p class="more">
-        <a href="<?php echo URL; ?>/prodej">více >>> </a>
+        <a href="<?php echo URL; ?>/location">více >>> </a>
       </p>
     </section>
 
     <section class="box">
       <div class="header">
-        <h2>Title 2</h2>
+        <h2>Apartmán</h2>
       </div>
 
       <p class="box-text">
-      Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Apartmán má dva dvoulůžkové pokoje, obytný prostor s kuchyňským koutem, koupelnu a terasu. Nachází se 5 minut od hlavních městských pláží s promenádou. 
       </p>
       <p class="more">
-        <a href="<?php echo URL; ?>/lokalita">více >>> </a>
+        <a href="<?php echo URL; ?>/apartment">více >>> </a>
       </p>
     </section>
 
     <section class="box">
       <div class="header">
-        <h2>Title 3</h2>
+        <h2>Pronájem</h2>
       </div>
 
       <p class="box-text">
-      Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Byt nabízíme ke krátkodobému i dlouhodobému pronájmu. Umožňuje ubytování až šesti osob, je plně vybavený a připravený třeba pro Vaši dovolenou. 
       </p>
       <p class="more">
-        <a href="<?php echo URL; ?>/standardy">více >>> </a>
+        <a href="<?php echo URL; ?>/rent">více >>> </a>
       </p>
     </section>
 

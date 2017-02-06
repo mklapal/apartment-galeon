@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link rel="icon" href="<?php echo(URL); ?>/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="<?php echo(URL); ?>/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="<?php echo(URL); ?>/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo(URL); ?>/images/favicon.ico" type="image/x-icon">
     <title>Apartment Galeon Torrevieja, Costa Blanca Spain</title>
     <link href="<?php echo(URL); ?>/style/css/style.css" rel="stylesheet">
     <script src="//code.jquery.com/jquery-1.9.1.js"></script>
@@ -19,7 +19,7 @@
     <header class="<?php if(isset($homepage)) { echo "homepage"; } ?>">
       <div class="wrapper">
 
-      <h1 class="header-logo-left"><a href="<?php echo(URL); ?>/<?php echo($lang); ?>">Apartment Galeon</a></h1>
+        <h1 class="header-logo-left"><a href="<?php echo(URL); ?>/<?php echo($lang); ?>">Apartment Galeon</a></h1>
 
       </div>
     </header>

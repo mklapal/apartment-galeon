@@ -59,7 +59,6 @@
 
 .text {
   @include clearfix;
-  background: $white;
   padding: 0 10%;
 
   .menu-wrapper {
@@ -70,7 +69,7 @@
 
   .wrapper {
     overflow: hidden;
-    margin: 0 0 3em 0;
+    margin: 0 auto 3em auto;
     padding: 0 0 2em;
   }
 
@@ -98,7 +97,6 @@
     p.box-text {
       padding: 0.5em 20px 0em;
       text-align: justify;
-      min-height: 200px;
     }
     .img-center {
       display: block;
@@ -129,7 +127,6 @@
 
     .header {
       border-bottom: 1px solid $yellow;
-      font-size: $font-xxl;
       font-weight: bold;
       margin: 1em 0 1em;
       padding: 0 0 0.2em 0;
@@ -138,6 +135,7 @@
         font-family: 'PT Sans';
         font-style: italic;
         max-width: 75%;
+        font-size: $font-xl;
       }
     }
     h2 {
