@@ -15,10 +15,11 @@ RewriteEngine On
 
 #company
 
-RewriteRule   ^location   http://www.apartment-galeon.com/pages/location.php
-RewriteRule   ^apartment  http://www.apartment-galeon.com/pages/apartment.php
-RewriteRule   ^info       http://www.apartment-galeon.com/pages/info.php
-RewriteRule   ^contact    http://www.apartment-galeon.com/pages/contact.php
+RewriteRule   ^location   /pages/location.php
+RewriteRule   ^apartment  /pages/apartment.php
+RewriteRule   ^info       /pages/info.php
+RewriteRule   ^rent       /pages/rent.php
+RewriteRule   ^contact    /pages/contact.php
 
 #RewriteRule   ^           /apartment-galeon/index.php
 

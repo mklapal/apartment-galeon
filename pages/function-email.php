@@ -25,7 +25,7 @@ $_POST['text'] = "testovaci zprava / mockup";
     <html>
     <head>
       <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-      <title>NOPAL</title>
+      <title>Apartment Galeon</title>
     </head>
     <body style="font-family: Arial, sans-serif;">
     
@@ -33,34 +33,29 @@ $_POST['text'] = "testovaci zprava / mockup";
     <div style="background-color: #ffffff;">
     
     <table width="550" cellpadding="0" align="center" style="margin-top: 30px; border: 0px solid #ffffff; background:#ffffff;" color:#000000;>
-    <tr><td style="background:#868a6f;padding:10px;">
+    <tr><td style="background:#ffffff;padding:10px;">
     
-    <img src="http://www.apartment-galeon.com/images/logo.png" alt="logo">
+    <img src="http://new.apartment-galeon.com/images/logo.svg" alt="logo">
     <!--/header-->
     <br />
     <!--body-->
     <table cellspacing="0" style="background:#ffffff; width:100%;">
       <tr>
         <td valign="top" style="text-align:left;font-size:14px; padding:0px;">
-    <h2 style="padding:10px;">Thank you for your message!</h2>
+    <h2 style="padding:10px;">Děkujeme za Vaši zprávu!</h2>
     <p style="font-size:16px;color:#000000;padding:10px;">
-    Here are details of your message:<br ><br >
-    Your name: '.$_POST["name"].'<br >
-    Your cellphone: '.$_POST["phone"].'<br >
-    Your email: '.$_POST["email"].'<br >
-    Your message: '.$_POST["text"].'<br >
+    Detaily zprávy:<br ><br >
+    Jméno: '.$_POST["name"].'<br >
+    Telefon: '.$_POST["phone"].'<br >
+    Email: '.$_POST["email"].'<br >
+    Text zprávy: '.$_POST["text"].'<br >
     <br >
-    We will contact you as soon as possible!<br >
+    Budeme Vás kontaktovat v nejblížším možném termínu!<br >
     <br >
     <b>
 
-    Petr Moťka<br/>
-    T: +420 606 692 812<br/>
-    E: petr.motka@nopalreality.cz<br/>
-    <br/>
-    Jana Sestini<br/>
-    T: +420 721 800 413<br/>
-    E: jana.sestini@nopalreality.cz<br/>
+    Miroslav a Martina Staroňovi<br/>
+    E: info@apartment-galeon.com<br/>
     </b>
     </p>
     </td>
@@ -70,17 +65,8 @@ $_POST['text'] = "testovaci zprava / mockup";
     
     <!--footer-->
     <p style="color:#fff;padding:10px;">
-    <a href="http://www.vinohradska85.cz" style="color:#333333;">www.vinohradska85.cz</a><br>
-    <br>
-    NOPAL s.r.o.<br>
-    Dienzenhoferovy sady 2<br>
-    150 00 Praha 5<br>
-    <br>
-    T: +420 257 317 898<br>
-    E: info@nopalreality.cz<br>
-    W: www.nopalreality.cz<br>
-    </p>
-    
+    <a href="http://www.apartment-galeon.com" style="color:#333333;">http://www.apartment-galeon.com</a>
+        
     </td></tr>
     </table>
     </div>
@@ -90,9 +76,9 @@ $_POST['text'] = "testovaci zprava / mockup";
     </html>
     ');
     
-    //echo $message;
-    //echo "true";
-    //exit;
+    echo $message;
+    echo "true";
+    exit;
     
     //uložení do souboru html
     $html_order = '../users/'.return_url($_POST['email']).'_'.date("ymdhis").'.html';
@@ -113,18 +99,15 @@ $_POST['text'] = "testovaci zprava / mockup";
     
     $add[] = array($_POST['email'], $_POST['name']);
     $add[] = array('michalklapal@gmail.com', 'Info');
-    $add[] = array('petr.motka@nopalreality.cz', 'Info NOPAL');
-    $add[] = array('jana.sestini@nopalreality.cz', 'Info NOPAL');
-    $add[] = array('info@nopalreality.cz', 'Info NOPAL');
-    //$add[] = array('michalklapal@gmail.com', 'Info');
+    $add[] = array('info@napartment-galeon.com', 'Info Apartment Galeon');
     
     foreach ($add as $key => $val) {
     
-      $mail->SetFrom('info@nopalreality.cz', 'Info NOPAL');
-      $mail->AddReplyTo("info@nopalreality.cz","Info NOPAL");
+      $mail->SetFrom('info@napartment-galeon.com', 'Info Apartment Galeon');
+      $mail->AddReplyTo('info@napartment-galeon.com', 'Info Apartment Galeon');
       $mail->AddAddress($val[0], $val[1]);
       
-      $mail->Subject    = "Vinohradska85 - kontaktni formular / contact form"; //předmět mailu 
+      $mail->Subject    = "Apartment Galeon - kontaktni formular / contact form"; //předmět mailu 
       $mail->AltBody    = strip_tags($message); // optional, comment out and test
       $mail->MsgHTML($message);
     

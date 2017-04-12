@@ -1,7 +1,7 @@
 <?php 
 
 require("config.php");
-$lang = "en";
+$lang = "";
 $menu = "index";
 $homepage = true;
 require("pages/template_header.php");
@@ -18,15 +18,6 @@ require("pages/template_header.php");
       </p>
     </article>
 
-    <div class="bcg-buttons">
-      <ul>
-        <li class="js-bcg active">0</li>
-        <li class="js-bcg">1</li>
-        <li class="js-bcg">2</li>
-        <li class="js-bcg">3</li>
-      </ul>
-    </div>
-
   </div>
 </section>
 
@@ -39,7 +30,7 @@ require("pages/template_header.php");
       </div>
 
       <p class="box-text">
-      Torrevieja je přímořské město na španělském pobřeží Costa Blanca. Je oblíbené díky velmi příznivému klimatu, písečným plážím a přírodě v okolí. 
+      Torrevieja je přístavní město na španělském pobřeží Costa Blanca. Je oblíbené díky velmi příznivému klimatu, písečným plážím a přírodě v okolí. 
       </p>
       <p class="more">
         <a href="<?php echo URL; ?>/location">více >>> </a>

@@ -14,7 +14,7 @@ require("../pages/template_header.php");
 
       <section class="js-position js-section">
         <div class="header">
-          <h1>Rent</h1>
+          <h1>Pronájem</h1>
         </div>
 
         <h2>How serious book an apartment?</h2>

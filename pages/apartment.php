@@ -13,7 +13,7 @@ require("../pages/template_header.php");
     <div class="right-side">
 
       <div class="header">
-        <h1>Financing</h1>
+        <h1>Apartmán</h1>
       </div>
 
       <h2>

@@ -13,61 +13,34 @@ require("../pages/template_header.php");
     <div class="right-side">
 
       <div class="header">
-        <h1>Contact</h1>
+        <h1>Kontakt</h1>
       </div>
 
       <div class="contact-wrapper">
         <div class="contact-box">
 
-          <h2>SALES AGENT</h2>
-
-          <a href="http://www.nopalreality.cz" target="_blank">
-          <img src="<?php echo URL; ?>/images/nopal_logo.png" alt="NOPAL logo">
-          </a>
+          <h2>Vlastník</h2>
 
           <p>
-          Dienzenhoferovy sady 2<br>
-          150 00 Praha 5<br>
-          </p>
-          <p>
-          T: +420 257 317 898<br>
-          E: <a href="mailto:info@nopalreality.cz">info@nopalreality.cz</a><br>
-          W: <a href="http://www.nopalreality.cz" target="_blank">www.nopalreality.cz</a><br>
-          </p>
-
-          <h2>Brokers</h2>
-
-          <p>
-          Petr Moťka<br>
-          T: +420 606 692 812<br>
-          E: <a href="mailto:petr.motka@nopalreality.cz">petr.motka@nopalreality.cz</a><br>
-          </p>
-
-          <p>
-          Jana Sestini<br>
-          T: +420 721 800 413<br>
-          E: <a href="mailto:jana.sestini@nopalreality.cz">jana.sestini@nopalreality.cz</a><br>
+          <br>
+          Miroslav Staroň<br>
+          Martina Staroňová<br>
+          <!--T: +420 123 456 789<br--><br>
+          E: <a href="mailto:info@apartment-galeon.com">info@napartment-galeon.com</a><br>
           </p>
 
         </div>
         
         <div class="contact-box">
 
-          <h2>ARCHITECT SERVICES</h2>
-
-          <a href="http://www.nopalreality.cz" target="_blank">
-            <img src="<?php echo URL; ?>/images/nopal_logo.png" alt="NOPAL logo">
-          </a>
+          <h2>Rezervace</h2>
 
           <p>
-          Dienzenhoferovy sady 2<br>
-          150 00 Praha 5<br>
-          </p>
-
-          <p>
-          T: +420 257 317 898<br>
-          E: <a href="mailto:info@nopalreality.cz">info@nopalreality.cz</a><br>
-          W: <a href="http://www.nopalreality.cz" target="_blank">www.nopalreality.cz</a><br>
+          <br>
+          Mositan Vuokraus Torrevieja<br>
+          <br>
+          rezervační formulář a dostupnost:<br>
+          <a href="http://goo.gl/LmBBRW" target="_blank">Apartment Galeon - REF.VA005 EDIF. BAHIA III</a><br>
           </p>
 
         </div>

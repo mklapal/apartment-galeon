@@ -40,9 +40,9 @@
 </form>
 
 <p class="js-sent js-info">
-Thank you for contacting us! We will contact you as soon as possible.
+Děkujeme za Vaši zprávu! Budeme Vás kontaktovat v nejbližším možném termínu. Kopie zprávy byla odeslána na Váš email.
 </p>
 
 <p class="js-error js-info">
-An error during sending. Please retry it again or contact us directly through email.
+Chyba při odesílání zprávy. Prosím zkuste to znovu nebo nás kontaktujte přímo emailem na info@apartment-galeon.com. 
 </p>

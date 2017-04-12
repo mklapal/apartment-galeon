@@ -72,12 +72,6 @@
       float: none;
       min-height: 100px;
     }
-
-    .bcg-buttons {
-      text-align: center;
-      clear:both;
-      float: none;
-    }
   }
   .text {
     padding: 0 2% 20px 2%;
@@ -88,6 +82,16 @@
     }
     .right-side {
       margin: 1em 0em;
+    }
+  }
+  .p-wrap {
+    img {
+      float: right;
+      width: 50%;
+      margin: 0 0 0 10px;
+    }
+    &.left img {
+      margin: 0 10px 0 0;
     }
   }
 

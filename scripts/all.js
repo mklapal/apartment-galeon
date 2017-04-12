@@ -10,55 +10,29 @@ $(document).ready(function() {
     $(this).toggleClass("active");
   });
 
+  // intro images preload
   var bcg = [
-    '../images/new1.jpg',
-    '../images/new2.jpg',
-    '../images/new3.jpg',
-    '../images/new4.jpg',
+    'http://new.apartment-galeon.com/images/tor1.jpg',
+    'http://new.apartment-galeon.com/images/tor2.jpg',
+    'http://new.apartment-galeon.com/images/tor3.jpg',
+    'http://new.apartment-galeon.com/images/tor4.jpg',
   ];
 
   $(bcg).preload();
 
   //change background every 10 seconds
-  var i = 0,
-    auto = true;
-
+  var i = 1;
+  
   setInterval(function() {
-    if (auto) {
-      var pos = i % 4;
-      var posa = pos + 1;
-      $(".js-background").css("background-image", "url('" + bcg[pos] + "')");
-      $(".js-bcg").removeClass("active");
-      $(".bcg-buttons ul li:nth-child(" + posa + ")").addClass("active");
-      i++;
-    }
-  }, 3000);
-
-  $(".js-bcg").mouseover(function() {
-    //console.log("animace zastavena");
-    var value = $(this).text();
-    $(".js-background").css("background-image", "url('" + bcg[value] + "')");
-    $(".js-bcg").removeClass("active");
-    $(this).addClass("active");
-    auto = false;
-  });
-  $(".js-bcg").mouseout(function() {
-    //console.log("animace spustena");
-    auto = true;
-  });
-
-  $('.js-section').css("display", "none");
-  $('.js-position').css("display", "block");
-
-  $('.js-btn-position').click(function() {
-    $('.js-btn-position').removeClass("selected");
-    $('.js-section').css("display", "none");
-    var section = $(this).attr("href").substring(1);
-    console.log(section);
-    $('.js-' + section).css("display", "block");
-    $(this).addClass("selected");
-  });
-
+      if (i < 4) {
+        i++;
+      } else {
+        i = 1;
+      }
+      $('.js-background').removeClass('img1 img2 img3 img4');
+      $('.js-background').addClass('img' + i);
+  }, 5000);
+  
   //form function
   function validateEmail($email) {
     var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
@@ -112,8 +86,8 @@ $(document).ready(function() {
 
       $.ajax({
         type: "POST",
-        //url: "http://localhost:8080/vinohradska85/pages/function-email_en.php",
-        url: "http://www.apartment-galeon.com/pages/function-email.php",
+        //url: "http://localhost/galeon/pages/function-email.php",
+        url: "http://new.apartment-galeon.com/pages/function-email.php",
         data: $(".js-send").serialize(), // serializes the form's elements.
         success: function(data) {
           console.log(data); // show response from the php script.

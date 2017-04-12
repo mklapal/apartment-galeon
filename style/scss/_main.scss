@@ -2,10 +2,30 @@
   padding: 0 10%;
 
   &.js-background {
-    background-image: url('../../images/new1.jpg');
-    background-position: 50% 50%;
+    background-image: url('../../images/tor1.jpg');
+    background-position: center center;
     background-size: cover;
     @include transition(all, 1s, ease-in-out);
+
+    &.img1 { 
+      background-image: url('../../images/tor1.jpg'); 
+    }
+    
+    &.img2 { 
+      background-image: url('../../images/tor2.jpg');
+      background-position: center center;
+    }
+    
+    &.img3 { 
+      background-image: url('../../images/tor3.jpg');
+      background-position: center 90%;
+    }
+    
+    &.img4 { 
+      background-image: url('../../images/tor4.jpg');
+      background-position: center center;
+    }
+
   }
 
   .wrapper {
@@ -17,42 +37,25 @@
     text-align: center;
     margin: 2em 0 0;
     padding: 1em;
-    width: 200px;
+    width: 250px;
     height: auto;
     background: $red-opacity;
     float: left;
 
     h1 {
-      text-align: center;
-      font-size: $font-xl;
-      font-weight: bold;
+      color: $white;
       font-family: 'PT Sans';
+      font-size: $font-xl;
       font-style: italic;
+      margin: 10px 0 5px;
       padding: 0 0 0.5em 0;
+      text-align: left;
     }
     p {
+      color: $white;
+      font-size: $font-l;
+      line-height: 21px;
       text-align: justify;
-      font-size: $font-s;
-    }
-  }
-
-  .bcg-buttons {
-    margin: 2em 0 0;
-    float: right;
-
-    ul li {
-      text-align: center;
-      width: 1em;
-      height: 1em;
-      display: inline-block;
-      @include rounded(1em);
-      background: $white;
-      margin: 0 0.2em 1em;
-      text-indent: -99999px;
-      border: 1px solid $black;
-    }
-    .active, .selected {
-      background: $yellow;
     }
   }
 }

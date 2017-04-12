@@ -12,24 +12,49 @@ require("../pages/template_header.php");
 
     <div class="right-side">
 
-    <section class="js-position js-section">
+    <section class="">
       <div class="header">
-        <h1>Position</h1>
+        <h1>Lokalita</h1>
       </div>
 
+      <div class="p-wrap">
+
+      <img src="<?php echo(URL); ?>/content/spain.jpg" class="full-size" alt="Španelsko" />
+
       <p>
-      The residential project VINOHRADSKÁ 85 is located on the main east-west avenue of Vinohrady, <strong>Vinohradská Avenue</strong>, leading from Wenceslas Square to Žižkov and Strašnice,  in one of Prague’s most reputed residential and high-living areas in the city call <strong>Vinohrady</strong>. The residence VINOHRADSKÁ 85 is facing directly to the nice and pleasant park Svatopluka Čecha and is really close to the main green space in the area, “Riegrovy sady”.
+        Torrevieja je přístavní město v jihovýchodním Španělsku na pobřeží Costa Blanca. Leží asi 50km jižně od Alicante a patří tak do provincie Alicante, která spadá do Valencijského společenství (Comunudad Valenciana). Torrevieja má dle zdrojů 100 000 obyvatel, ale mimo to je druhým domovem v zimě mnoha Skandinávců, Britů či Němců a v létě vnitrozemských Španělů. 
       </p>
       <p>
-      The square of “Jiřího z Poděbrad” with the modern and interesting church by Jože Plečnik built in 1932 is just 200 meters far, as well as “náměstí Míru”, the main square of Prague 2, with the Vinohrady Theatre and Gothic  Revival Saint Ludmila Church.
+        Toto místo je unikátní díky velmi příznivému mikroklimatu, které je ovlivněno nejen Středozemním mořem, ale za západní strany také slanými lagunami (přírodní park park Lagunas de la Mata a Torrevieja). Toto zdravé mikroklima je podtrženo mimořádně stabilními teplotami.
       </p>
       <p>
-      The present-day district was originally part of the sparsely populated countryside outside the Prague. Change came through the decision of Emperor Charles IV in 1358 to establish vineyards around the city. Nowadays the high-quality housing, accessibility to the city centre, attractive parks, a good selection of restaurants, and good facilities make Vinohrady consistently popular among foreign and domestic residents.
+        Právě těžba soli nastartovala v 19. století dynamický rozvoj původní rybářské osady. V posledních letech je však rychlý rozvoj způsoben především turismem - město je díky své poloze, svému podnebí, písečným plážím i ekonomické dostupnosti oblíbeným útočištěm penzistů i rodin s dětmi.
       </p>
 
-      <a href="<?php echo(URL); ?>/content/location_img_position.jpg" data-lightbox="image-1">
-        <img src="<?php echo(URL); ?>/content/location_img_position.jpg" class="full-size" alt="position map" />
-      </a>
+      </div>
+
+    </section>
+
+    <section class="">
+      <div class="header">
+        <h1>Calle Galeon</h1>
+      </div>
+
+      <div class="p-wrap left">
+
+      <img src="<?php echo(URL); ?>/content/calle_galeon.jpg" class="full-size" alt="Calle Galeon" />
+
+      <p>
+        Torrevieja je přístavní město v jihovýchodním Španělsku na pobřeží Costa Blanca. Leží asi 50km jižně od Alicante a patří tak do provincie Alicante, která spadá do Valencijského společenství (Comunudad Valenciana). Torrevieja má dle zdrojů 100 000 obyvatel, ale mimo to je druhým domovem v zimě mnoha Skandinávců, Britů či Němců a v létě vnitrozemských Španělů. 
+      </p>
+      <p>
+        Toto místo je unikátní díky velmi příznivému mikroklimatu, které je ovlivněno nejen Středozemním mořem, ale za západní strany také slanými lagunami (přírodní park park Lagunas de la Mata a Torrevieja). Toto zdravé mikroklima je podtrženo mimořádně stabilními teplotami.
+      </p>
+      <p>
+        Právě těžba soli nastartovala v 19. století dynamický rozvoj původní rybářské osady. V posledních letech je však rychlý rozvoj způsoben především turismem - město je díky své poloze, svému podnebí, písečným plážím i ekonomické dostupnosti oblíbeným útočištěm penzistů i rodin s dětmi.
+      </p>
+
+      </div>
 
     </section>
 
