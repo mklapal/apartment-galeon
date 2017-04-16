@@ -26,7 +26,7 @@ require("../pages/template_header.php");
           Miroslav Staroň<br>
           Martina Staroňová<br>
           <!--T: +420 123 456 789<br--><br>
-          E: <a href="mailto:info@apartment-galeon.com">info@napartment-galeon.com</a><br>
+          E: <a href="mailto:info@apartment-galeon.com">info@apartment-galeon.com</a><br>
           </p>
 
         </div>

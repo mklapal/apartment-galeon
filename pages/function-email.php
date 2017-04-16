@@ -35,7 +35,7 @@ $_POST['text'] = "testovaci zprava / mockup";
     <table width="550" cellpadding="0" align="center" style="margin-top: 30px; border: 0px solid #ffffff; background:#ffffff;" color:#000000;>
     <tr><td style="background:#ffffff;padding:10px;">
     
-    <img src="http://new.apartment-galeon.com/images/logo.svg" alt="logo">
+    <img src="http://www.apartment-galeon.com/images/logo.svg" alt="logo">
     <!--/header-->
     <br />
     <!--body-->
@@ -76,10 +76,6 @@ $_POST['text'] = "testovaci zprava / mockup";
     </html>
     ');
     
-    echo $message;
-    echo "true";
-    exit;
-    
     //uložení do souboru html
     $html_order = '../users/'.return_url($_POST['email']).'_'.date("ymdhis").'.html';
     //echo $html_order;
@@ -95,16 +91,16 @@ $_POST['text'] = "testovaci zprava / mockup";
     $mail = new PHPMailer(); //vytvoříš objekt mail
     
     $mail->CharSet = "UTF-8";
-    $mail->ContentType     = "text/html";
+    $mail->ContentType = "text/html";
     
     $add[] = array($_POST['email'], $_POST['name']);
     $add[] = array('michalklapal@gmail.com', 'Info');
-    $add[] = array('info@napartment-galeon.com', 'Info Apartment Galeon');
+    $add[] = array('info@apartment-galeon.com', 'Info Apartment Galeon');
     
     foreach ($add as $key => $val) {
     
-      $mail->SetFrom('info@napartment-galeon.com', 'Info Apartment Galeon');
-      $mail->AddReplyTo('info@napartment-galeon.com', 'Info Apartment Galeon');
+      $mail->SetFrom('info@apartment-galeon.com', 'Info Apartment Galeon');
+      $mail->AddReplyTo('info@apartment-galeon.com', 'Info Apartment Galeon');
       $mail->AddAddress($val[0], $val[1]);
       
       $mail->Subject    = "Apartment Galeon - kontaktni formular / contact form"; //předmět mailu 
@@ -119,5 +115,4 @@ $_POST['text'] = "testovaci zprava / mockup";
     }
 
     echo "true";
-
 ?>

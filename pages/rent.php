@@ -17,25 +17,33 @@ require("../pages/template_header.php");
           <h1>Pronájem</h1>
         </div>
 
-        <h2>How serious book an apartment?</h2>
+        <div class="p-wrap">
+        
+        <img src="<?php echo(URL); ?>/content/logo.png" class="" alt="MOSITAN VUOKRAUS" />
+
         <p>
-        You have a possibility to secure an exclusive pre-reservation for a period of 3 days, when we guarantee to not offer the apartment to other client. During this period you may conclude a binding reservation. Further details of the reservation procedure are outlined in the buying procedure. If a binding reservation does not occur by the end of the 3 days period, the pre-reservation on the apartment lapses.
+          Apartmán Galeon nabízíme ke krátkodobému i dlouhodobému pronájmu. Pronájem většinou zajišťuje místní kancelář MOSITAN VUOKRAUS, která nemovitost spravuje. Každého hosta přivítají, mohou zajistit dopravu z letiště, předají klíče od bytu a rádi s čímkoliv pomůžou, jakékoliv případné problémy dokáží obratem vyřešit. 
         </p>
 
-        <h2>If I am a foreigner, can I buy an apartment in the Czech Republic as a private person?</h2>
         <p>
-        Limitation for non-EU members concerning the purchase of Real Estate has changed. Nowadays, also non-EU members can buy Real Estate as private persons.
+          Ceny a obsazenost jsou dostupné v rezervačním systému:<br>
+          <a href="http://goo.gl/LmBBRW" target="_blank">>> MOSITAN VUOKRAUS</a><br>
         </p>
 
-        <h2>How to proceed if I am interested in these offer apartments?</h2>
         <p>
-        Please contact us and we will directly organize a visit.
+          V případě dotazů se neváhejte obrátit na majitele:<br>
+          Martina Staroňová<br>
+          Miroslav Staroň<br>
+          <a href="mailto:info@apartment-galeon.com">info@apartment-galeon.com</a><br>
+          <br>
+          <br>
+          <br>
+          <br>
         </p>
 
-        <h2>DISCLAIMER</h2>
-        <p>
-        The information contained in this website is for general information purposes only. The information is provided by NOPAL  s.r.o. and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.
-        </p>
+        </div>
+
+        <?php require("template_form.php"); ?>
 
       </section>
 

@@ -12,10 +12,10 @@ $(document).ready(function() {
 
   // intro images preload
   var bcg = [
-    'http://new.apartment-galeon.com/images/tor1.jpg',
-    'http://new.apartment-galeon.com/images/tor2.jpg',
-    'http://new.apartment-galeon.com/images/tor3.jpg',
-    'http://new.apartment-galeon.com/images/tor4.jpg',
+    'http://www.apartment-galeon.com/images/tor1.jpg',
+    'http://www.apartment-galeon.com/images/tor2.jpg',
+    'http://www.apartment-galeon.com/images/tor3.jpg',
+    'http://www.apartment-galeon.com/images/tor4.jpg',
   ];
 
   $(bcg).preload();
@@ -87,10 +87,9 @@ $(document).ready(function() {
       $.ajax({
         type: "POST",
         //url: "http://localhost/galeon/pages/function-email.php",
-        url: "http://new.apartment-galeon.com/pages/function-email.php",
+        url: "http://www.apartment-galeon.com/pages/function-email.php",
         data: $(".js-send").serialize(), // serializes the form's elements.
         success: function(data) {
-          console.log(data); // show response from the php script.
           if (data === "true") {
             $('.js-send').css("display", "none");
             $('.js-sent').css("display", "block");

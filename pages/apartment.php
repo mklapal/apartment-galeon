@@ -16,39 +16,49 @@ require("../pages/template_header.php");
         <h1>Apartmán</h1>
       </div>
 
-      <h2>
-      ORAL RESERVATION (Non-binding reservation)
-      </h2>
-
       <p>
-      The Oral Reservation is a non-binding reservation for period of 3 days. After termination of this three days period, the reservation either has to be confirmed by signing the Reservation Contract, or the Oral Reservation lapses and the property will be offered to other interested parties.
+      Apartmán má dva dvoulůžkové pokoje, obytný prostor s kuchyňským koutem, koupelnu a terasu. Nachází se 5 minut od hlavních městských pláží s promenádou, v klidnější městské ulici. Rohový bytový dům je s výtahem a velkou střešní terasou, parkování je možné v ulici.
       </p>
-
-      <h2>
-      RESERVATION CONTRACT (Binding Reservation)
-      </h2>
-
-      <p>
-      The binding reservation means the signing of the Reservation Contract, after which the Future Seller agrees to take off the property of the market. The Reservation Contract commits the Buyer to pay the reservation fee amount of CZK 200.000,- within 5 (five) working days from the signing of this contract. This contract commits both parties to conclude the Pre-purchase Contract. If Purchase Contract is concluded, the reservation fee is deducted from the purchase price.
-      </p>
-
-      <h2>
-      THE PRE-PURCHASE CONTRACT (Future Purchase Contract)
-      </h2>
-
-      <p>
-      The Pre-purchase Contract will be signed after a final inspection of the units. When signing the Pre-purchase Contract, the Buyer has to provide the Seller with his way of financing the property and paid another instalment of 15% of the purchase price. The remaining part of the purchase price has to be paid by the Buyer onto the escrow account. The Escrow Contract is signed together with the Pre-purchase Contract.
-      </p>
-
-      <h2>
-      PURCHASE CONTRACT
-      </h2>
       
       <p>
-      Within 30 days from signing of the Pre-purchase Contract is signed the Purchase Contract. Before the signing of this contract, the Buyer is obliged to pay the remaining part of the purchase price onto the escrow account.
+      Apartmán je plně vybaven jako prázdninový byt - v kuchyňském koutu naleznete kompletní sadu nádobí, varnou desku, mikrovlnku, varnou konvici kávovar a pračku.
+      Koupelna je vybvena vanou se sprchou, záchodem, bidetem, umyvadlem, nechybí úklidové potřeby včetně vysavače.
+      V hlavní ložnici je umístěno dvojlůžko (140x190cm - standardní španělský rozměr), vestavěná šatní skříň a komoda, menší pokoj nabízí dvě samostatná lůžka (80x185cm). Lůžkoviny i ručníky jsou připraveny na místě k použití.
+      V obytném prostoru je dále jídelní kout, rozkládací pohovka a přístup na terásku s posezením.
       </p>
 
-      <?php require("template_form.php"); ?>
+      <p>
+      V bytě je k dispozici vysokorychlostní internet a televize, vytápění a chlazení je možné pomocí klimatizační jednotky. Všechny místnosti mají okna opatřená vnějšími hliníkovými roletami.
+      </p>
+
+      <div class="p-center">
+
+      <img src="<?php echo(URL); ?>/content/plan.jpg" class="" alt="Půdorys bytu" />
+
+      </div>
+      
+      <div class="p-center">
+
+      <?php
+        $arr = [
+          'plan',
+          'plan',
+          'plan',
+          'plan',
+          'plan',
+          'plan',
+          'plan',
+          'plan'
+        ];
+
+        foreach ($arr as $value) {
+          echo ('<a href="'.URL.'/content/'.$value.'.jpg" data-lightbox="images" class="photo">
+            <img src="'.URL.'/content/'.$value.'.jpg" class="thumb" alt="photo" />
+          </a>');
+        }
+      ?>
+      
+      </div>
 
     </div>
 
