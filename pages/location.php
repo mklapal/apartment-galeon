@@ -81,19 +81,28 @@ require("../pages/template_header.php");
 
       <?php
         $arr = [
-          'plan',
-          'plan',
-          'plan',
-          'plan',
-          'plan',
-          'plan',
-          'plan',
-          'plan'
+          '01',
+          '02',
+          '03',
+          '04',
+          '05',
+          '06',
+          '07',
+          '08',
+          '09',
+          '10',
+          '11',
+          '12',
+          '13',
+          '14',
+          '15',
+          '16',
+          '17'
         ];
 
         foreach ($arr as $value) {
-          echo ('<a href="'.URL.'/content/'.$value.'.jpg" data-lightbox="images" class="photo">
-            <img src="'.URL.'/content/'.$value.'.jpg" class="thumb" alt="photo" />
+          echo ('<a href="'.URL.'/images/surrounding/'.$value.'.JPG" data-lightbox="images" class="photo">
+            <img src="'.URL.'/images/surrounding/'.$value.'_thumb.JPG" class="thumb" alt="photo" />
           </a>');
         }
       ?>

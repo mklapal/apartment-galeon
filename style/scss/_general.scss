@@ -65,14 +65,14 @@ a {
   }
 
   img.thumb {
-    max-width: auto;
+    max-width: 100%;
     height: 100px;
   }
 
   a.photo {
     float: left;
     text-decoration: none;
-    margin: 0.5em;
+    margin: 10px 10px 0 0;
   }
 
 }
