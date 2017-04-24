@@ -22,7 +22,7 @@ require("../pages/template_header.php");
       
       <p>
       Apartmán je plně vybaven jako prázdninový byt - v kuchyňském koutu naleznete kompletní sadu nádobí, varnou desku, mikrovlnku, varnou konvici kávovar a pračku.
-      Koupelna je vybvena vanou se sprchou, záchodem, bidetem, umyvadlem, nechybí úklidové potřeby včetně vysavače.
+      Koupelna je vybavena vanou se sprchou, záchodem, bidetem, umyvadlem, nechybí úklidové potřeby včetně vysavače.
       V hlavní ložnici je umístěno dvojlůžko (140x190cm - standardní španělský rozměr), vestavěná šatní skříň a komoda, menší pokoj nabízí dvě samostatná lůžka (80x185cm). Lůžkoviny i ručníky jsou připraveny na místě k použití.
       V obytném prostoru je dále jídelní kout, rozkládací pohovka a přístup na terásku s posezením.
       </p>
