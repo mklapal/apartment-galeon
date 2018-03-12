@@ -52,3 +52,46 @@
     cursor: pointer;
   }
 }
+
+.calendar-box {
+  margin: 30px 0 50px 0;
+  height: 330px;
+}
+
+.calendar1 {
+  float: left;
+  margin: 0 20px 20px 0;
+
+  tr th {
+    padding: 3px;
+  }
+
+  tr td {
+    padding: 3px;
+    color: white;
+    cursor: default;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  a {
+    color: white;
+    cursor: default;
+    text-decoration: none;
+  }
+
+  &:nth-child(2),
+  &:nth-child(5) {
+    clear: left;
+  }
+}
+
+.fechaunavailable {
+  background: red;
+}
+
+.fechaavailable {
+  background: green;
+}
+
+

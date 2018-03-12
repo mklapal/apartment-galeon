@@ -12,7 +12,7 @@
     <script src="<?php echo(URL); ?>/scripts/jquery.smooth-scroll.min.js"></script>
     
     <link href="<?php echo(URL); ?>/scripts/css/lightbox.css" rel="stylesheet" />
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700&subset=latin,latin-ext,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700&subset=latin,latin-ext,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
 
   </head>
   <body>

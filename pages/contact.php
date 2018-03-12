@@ -17,33 +17,14 @@ require("../pages/template_header.php");
       </div>
 
       <div class="contact-wrapper">
-        <div class="contact-box">
-
-          <h2>Vlastník</h2>
-
+        
           <p>
           <br>
-          Miroslav Staroň<br>
-          Martina Staroňová<br>
-          <!--T: +420 123 456 789<br--><br>
+          Ing. Martina Staroňová<br>
+          T: +420 732 255 129<br>
           E: <a href="mailto:info@apartment-galeon.com">info@apartment-galeon.com</a><br>
           </p>
 
-        </div>
-        
-        <div class="contact-box">
-
-          <h2>Rezervace</h2>
-
-          <p>
-          <br>
-          Mositan Vuokraus Torrevieja<br>
-          <br>
-          rezervační formulář a dostupnost:<br>
-          <a href="http://goo.gl/LmBBRW" target="_blank">Apartment Galeon - REF.VA005 EDIF. BAHIA III</a><br>
-          </p>
-
-        </div>
       </div>
 
       <?php require("template_form.php"); ?>
